@@ -1,9 +1,0 @@
-li=[[1,1],[4,4]]
-row=len(li)
-col=len(li[0])
-sum=0
-for i in range (row):
-    for j in range (col):
-        if i<=j:
-            sum+=li[i][j]
-print(sum)
