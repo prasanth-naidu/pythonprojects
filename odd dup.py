@@ -1,7 +1,5 @@
-li=[1,2,3,4,1,2,3,1,2,3,5,5,6]
-result=[]
-for i in li:
-    if(li.count(i)%2!=0):
-        result.append(i)
-print(result)
-print(set(result))
+n=input()
+count=0
+while n<0:
+    count+=1
+print(count)
